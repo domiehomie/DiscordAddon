@@ -1,0 +1,21 @@
+main: live.mufin.DiscordAddon.Main
+name: DiscordAddon
+prefix: DA
+version: 1.0
+api-version: 1.13
+description: Connects Discord and Minecraft server together!
+website: mufin.live
+author: mufinlive
+
+commands:
+  togglediscord:
+    aliases: tdc
+    description: Toggles the display of Discord messages in your chat.
+    usage: /<command>
+  discordreload:
+    aliases: dcrl
+    description: Reloads the config.yml file.
+    usage: /<command>
+  discorddm:
+    description: Send a dm to a user (in the discord server)
+    usage: /<command> <user> <message>

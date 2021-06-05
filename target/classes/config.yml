@@ -1,0 +1,13 @@
+# Discord bot token. Get this from https://discord.com/developers/
+bot:
+  token: ""
+  channel: ""
+  prefix: ""
+  webhook-url: ""
+features:
+  server-start: true
+  server-stop: true
+  first-join-message: true
+  join-message: true
+  leave-message: true
+  death-message: true
